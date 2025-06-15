@@ -136,3 +136,45 @@ footer {
   border-radius: 12px;
   box-shadow: 0 0 10px #7CFC00;
 }
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.split > div {
+  flex: 1 1 45%;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+.features li {
+  margin-bottom: 0.8rem;
+}
+
+.green {
+  color: #00C48C;
+}
+
+.cta {
+  background: linear-gradient(90deg, #6C63FF, #7CFC00);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.cta h2 {
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
